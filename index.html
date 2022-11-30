@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>220108</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .hero {
+            height: 33vw;
+            width: 100%;
+            background-image: url("5img.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-left: 5%;
+            padding-right: 5%;
+            border: 2px groove;
+            font-size: 1.6vw;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 3vw;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px groove red;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">hacks</h2>
+            <ul>
+                <li class="t"><a href="#">Home</a></li>
+                <li class="t"><a class="active" href="#">About</a></li>
+                <li class="t"><a class="active" href="#">Contact us</a></li>
+                <li class="t"><a class="active" href="#">Login</a></li>
+                <li class="t"><a class="active" href="#">signup</a></li>
+            </ul>
+            <li class="t" style="height: 4vw; margin-top:1.5vw;"><input type="text" name="search" class="active"><button class="btn btn-s">search</button></li>
+        </nav>
+    </div>
+</body>
+
+</html>
